@@ -69,7 +69,7 @@ function Registration() {
       </div>
       <div>
         <label htmlFor="emailNotifications">Sign up for email notifications</label>
-        <input type="checkbox" id="checkbox" name="notifications" value={signUp} onChange={e => setSignUp()}/>
+        <input type="checkbox" id="checkbox" name="notifications" value={signUp} onChange={e => setSignUp(true)}/>
       </div>
       <button>Submit</button>
     </form>
